@@ -265,3 +265,34 @@ div.otro{
     }
 }
 
+
+div.info{
+    background-color: aquamarine
+}
+
+div.info div.medio{
+    width: 50%;
+    float: left;
+}
+
+@media (orientation:portrait){
+    div.info div:medio{
+        width: 100%
+    }
+    
+    div.info div:completo{
+        width: 100%
+            clear:both
+    }
+    
+div.info div.completo{
+    width: 100%;
+    clear:both;
+}
+
+div:complete img, div:medio img{
+    width: 100%
+}
+    div.complete img, div.medio img, div.complete object, div.medio object{
+    width:100%
+    }
