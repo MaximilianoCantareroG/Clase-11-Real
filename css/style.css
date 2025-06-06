@@ -273,26 +273,31 @@ div.info{
 div.info div.medio{
     width: 50%;
     float: left;
+    
 }
 
+div.info div.completo{
+    width: 100%;
+        clear: both;
+    
+}
 @media (orientation:portrait){
     div.info div:medio{
         width: 100%
+            
     }
     
-    div.info div:completo{
+    div.info div:complete{
         width: 100%
-            clear:both
+            clear: both
     }
     
-div.info div.completo{
-    width: 100%;
-    clear:both;
 }
 
-div:complete img, div:medio img{
+div:completo img, div:medio img{
     width: 100%
 }
-    div.complete img, div.medio img, div.complete object, div.medio object{
-    width:100%
-    }
+
+div.completo img, div.medio img, div.completo object, div.medio object{
+    width: 100%
+}
